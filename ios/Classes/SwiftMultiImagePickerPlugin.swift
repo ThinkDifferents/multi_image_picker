@@ -1,7 +1,7 @@
 import Flutter
 import UIKit
 import Photos
-import BSImagePicker
+import SWImagePicker
 
 extension PHAsset {
     
