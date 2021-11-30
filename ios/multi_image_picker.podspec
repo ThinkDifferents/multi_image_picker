@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'multi_image_picker'
-  s.version          = '1.0.0'
+  s.version          = '1.0.3'
   s.summary          = 'Multi image picker'
   s.description      = <<-DESC
 A new flutter plugin project.
@@ -15,7 +15,7 @@ A new flutter plugin project.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'SWImagePicker', '~> 1.2'
+  s.dependency 'SWImagePicker', '~> 1.3'
 #  s.dependency 'BSImagePicker', '~> 3.3.1'
 
   s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
